@@ -1,17 +1,17 @@
 # ADSP - from LA.UM.8.1.r1-14500-sm8150.0
-vendor/bin/adsprpcd
-vendor/lib/libadsp_default_listener.so
-vendor/lib/libadsprpc.so
-vendor/lib/rfsa/adsp/libVC1Dec.so
-vendor/lib/rfsa/adsp/libVC1DecDsp_skel.so
-vendor/lib/rfsa/adsp/libapps_mem_heap.so
-vendor/lib/rfsa/adsp/libdspCV_skel.so
-vendor/lib/rfsa/adsp/libdsp_streamer_skel.so
-vendor/lib/rfsa/adsp/libhexagon_nn_skel.so
-vendor/lib64/libadsp_default_listener.so
-vendor/lib64/libadsprpc.so
-vendor/lib64/libmdsprpc.so
-vendor/lib64/libsdsprpc.so
+vendor/bin/adsprpcd|5b803e679ddbce4e59c2a67433ffefa6396d61f3
+vendor/lib/libadsp_default_listener.so|9d368444c806d344f4ea78ad4ec2b499d67f53d6
+vendor/lib/libadsprpc.so|98608b7298107d15a07c549c56d28b091af3c08b
+vendor/lib/rfsa/adsp/libVC1Dec.so|b95d4b6cf40d465a405ff27ceecd49a839ab74f7
+vendor/lib/rfsa/adsp/libVC1DecDsp_skel.so|b10140f450c053e3b88414c85454225aa9456473
+vendor/lib/rfsa/adsp/libapps_mem_heap.so|1cdac354c585c0d236d77b0888ebd5894b333326
+vendor/lib/rfsa/adsp/libdspCV_skel.so|63fc368b17e1b112c8824cd245c3a4dec17d13e4
+vendor/lib/rfsa/adsp/libdsp_streamer_skel.so|9cbf4d3c72b3e989c07e8b8f37c03f3b78e91f3d
+vendor/lib/rfsa/adsp/libhexagon_nn_skel.so|c7ef0ae4234df8f29bf7eca0e82d5e499c23cfbc
+vendor/lib64/libadsp_default_listener.so|ec9a452e318db1ddc5d826dd7cc2b14dd5fb2a14
+vendor/lib64/libadsprpc.so|191027d98939e3e1c23875cce09da0787fc11045
+vendor/lib64/libmdsprpc.so|cceac01229c28a6d75afa7b835ce87d4fba41014
+vendor/lib64/libsdsprpc.so|3947fed04d7f5c084843d720b81cce0e25fb6178
 
 # ADSP-Modules
 vendor/lib/rfsa/adsp/capi_v2_aptX_Classic.so
@@ -32,16 +32,16 @@ vendor/lib/rfsa/adsp/misound_karaoke_res.bin
 vendor/lib/rfsa/adsp/misound_res.bin
 
 # ANT+ (system) - from LA.UM.8.1.r1-14300-sm8150.0
-product/lib/com.qualcomm.qti.ant@1.0.so
--lib/libantradio.so
-product/lib64/com.qualcomm.qti.ant@1.0.so
--lib64/libantradio.so
+product/lib/com.qualcomm.qti.ant@1.0.so|a6e5dc519d76a0d938701b8773df19cfa98596b4
+-lib/libantradio.so|8a804ec625b1fcdfd6dbca7508e7f716c703a8bd
+product/lib64/com.qualcomm.qti.ant@1.0.so|f40868ad57012f1a512b14c889bc8380652cc50f
+-lib64/libantradio.so|1f72265e787b5abe2462033d06804838324421e8
 
 # ANT+ (vendor) - from LA.UM.8.1.r1-14300-sm8150.0
-vendor/lib/hw/com.qualcomm.qti.ant@1.0-impl.so
-vendor/lib/com.qualcomm.qti.ant@1.0.so
-vendor/lib64/hw/com.qualcomm.qti.ant@1.0-impl.so
-vendor/lib64/com.qualcomm.qti.ant@1.0.so
+vendor/lib/hw/com.qualcomm.qti.ant@1.0-impl.so|2c2769964955a031cd34056c4c7c39402d78dfb9
+vendor/lib/com.qualcomm.qti.ant@1.0.so|f06db3ccdcd6b184d26f4e4a3880e587e09f3a6b
+vendor/lib64/hw/com.qualcomm.qti.ant@1.0-impl.so|203528c568c1c5ce33b35dcb9ee9eb7ecb1de206
+vendor/lib64/com.qualcomm.qti.ant@1.0.so|181a8ab9b1d40705d3151821b53732c5566a2848
 
 # Audio
 vendor/lib/libacdb-fts.so
@@ -644,12 +644,12 @@ vendor/lib64/libperfgluelayer.so|4c95e08abc1cef5b39db06579d8f9faceb8f23d4
 vendor/lib64/libqti-perfd-client.so|0c2b82b5e5df6e0efb03ace4a259eb63487dd2b6
 vendor/lib64/libqti-perfd.so|7a6c75d2ec8ba7ed6bf17ef048c3c79a1a2daf53
 vendor/lib64/libqti-util.so|45a80be449435d277f09cc59e4a315fa86072c41
-vendor/lib64/libqti-utils.so
-vendor/lib64/libmeters-ns.so
-vendor/lib64/libgameoptfeature.so
-vendor/lib64/libadaptlaunch.so
-vendor/lib/libqti-utils.so
-vendor/lib/libperfconfig.so
+vendor/lib64/libqti-utils.so|3726d65486928bc014e657960dc023d920524922
+vendor/lib64/libmeters-ns.so|73f78b3461a4cbee6419721149dd95fec9029f8b
+vendor/lib64/libgameoptfeature.so|b82be985421dd21bb25ed217f762e3955db16765
+vendor/lib64/libadaptlaunch.so|3d0d481af1112df5a5cc5eff886fad9d5d334c58
+vendor/lib/libqti-utils.so|81d3d40097615baad8ff77a6ba3e6ec0706b4d71
+vendor/lib/libperfconfig.so|a25ba6151e02c6fbb053e0d1c54022b213c54c0d
 
 # Perf
 vendor/bin/hw/vendor.qti.hardware.perf@2.0-service
